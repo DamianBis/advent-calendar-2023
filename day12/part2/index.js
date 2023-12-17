@@ -36,7 +36,6 @@ function getOptions(inputs, checkArr) {
 }
 
 function findValidPosibilities(posibilities, check) {
-    let count = 0;
     for (const posibility of posibilities) {
         const errors = createChecksum(posibility);
         let valid = true;
